@@ -1,0 +1,15 @@
+{
+  "name": "agent-orchestrator",
+  "version": "1.0.0",
+  "description": "Travel Planning Assistant — Multi-agent orchestration with parallel execution",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc && node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^5.4.0"
+  }
+}
